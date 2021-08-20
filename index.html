@@ -1,0 +1,623 @@
+<html>
+
+<head>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header>
+
+    <div class="container-fluid nav-bas">
+
+      <div class="nav-bas-head">
+
+        <a class="nav-bas-href" href="">
+          <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" height="60" width="80">
+        </a>
+
+        <div class="dropdown" style="background-color: white; padding: 0 1.2rem;">
+          <button class="btn btn-light" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false"
+            style="background-color: white; flex-wrap: wrap; border-block: 0.0px;
+           box-sizing:border-box; justify-content: center; appearance: none; ">
+            <p style="color: black; font-family:BlinkMacSystemFont; font-size: 18pt; font-weight: 400;
+            line-height: 1.4; font-size: 1.4rem;">Kategoriler</p>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li><a class="dropdown-item" href="#">Yazılım Geliştirme</a></li>
+            <li><a class="dropdown-item" href="#">İşletme</a></li>
+            <li><a class="dropdown-item" href="#">Bt ve Yazılım</a></li>
+            <li><a class="dropdown-item" href="#">Ofiste Verimlilik</a></li>
+            <li><a class="dropdown-item" href="#">Kişisel Gelişim</a></li>
+            <li><a class="dropdown-item" href="#">Tasarım</a></li>
+            <li><a class="dropdown-item" href="#">Pazarlama</a></li>
+            <li><a class="dropdown-item" href="#">Yaşam Tarzı</a></li>
+            <li><a class="dropdown-item" href="#">Fotograf ve Video</a></li>
+            <li><a class="dropdown-item" href="#">Sağlık ve Fitness</a></li>
+            <li><a class="dropdown-item" href="#">Müzik</a></li>
+            <li><a class="dropdown-item" href="#">Öğretim ve Akademi</a></li>
+          </ul>
+        </div>
+
+        <div class="nav-bas-search">
+          <label class="nav-bas-search-label" for="searc-box">Dilediğiniz şeyi arayın</label>
+          <form class="nav-bas-search-form">
+            <input class="nav-bas-search-form-input" type="text" placeholder="Dilediğiniz şeyi arayın" name=""
+              id="searc-box">
+            <button class="nav-bas-search-form-button">
+              <img
+                src="https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png"
+                alt="">
+            </button>
+          </form>
+        </div>
+        <div class="nav-bas-education">
+          <a href="">
+            <span>
+              <p styles="font-family:BlinkMacSystemFont font-weight: 400;
+              line-height: 1.1;
+              font-size: 1.1rem; letter-spacing: -.02rem; ">Udemy'de Eğitim Verin</p>
+            </span>
+          </a>
+        </div>
+        <div class="nav-bas-sepet">
+          <a href="">
+            <img src="https://www.pngkey.com/png/full/134-1344540_free-shopping-cart-png-small-shopping-cart-icon.png"
+              alt="">
+          </a>
+        </div>
+        <div class="nav-bas-login">
+          <a href="">
+            <span>Oturum Aç</span>
+          </a>
+        </div>
+
+        <div class="nav-bas-register">
+          <a href="">
+            <span>Kaydol</span>
+          </a>
+        </div>
+
+        <div class="nav-bas-world">
+          <a href="">
+            <img
+              src="https://e7.pngegg.com/pngimages/424/610/png-clipart-globe-world-earth-computer-icons-network-icon-miscellaneous-globe-thumbnail.png"
+              alt="">
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+
+  </header>
+
+  <div class="container">
+    <div class="container position-relative">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="card mb-">
+
+            <div class="row g-0">
+              <div class="col-md-1">
+                <img
+                  src="https://img-c.udemycdn.com/notices/web_banner/image_udlite/d93015d2-3ec1-48cd-97c6-60eace42b20c.jpg">
+              </div>
+              <div class="card border-primary mb-3 header-box"
+                style="max-width: 25rem; max-height: 20rem; height: 20rem;">
+                <div class="card-header" style="font-family: 'Times New Roman', Times, serif; font-size: 35;"><b>İndirim
+                    bugün sona eriyor</b></div>
+                <div class="card-body text-primary">
+                  <p style="color: black;  background-color: white; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"
+                    style="color: black">Hemen Öğrenim Aşkı İndirimimizden yararlanın. Kurslar şimdi yalnızca ₺27,99'den
+                    başlayan fiyatlarla!</p>
+                </div>
+                <form class="col col-ml-10 d-flex">
+                  <input class="form-control me-1" type="search" placeholder="Dilediğiniz şeyi arayın.."
+                    aria-label="Search">
+
+                </form>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <br>
+    <br>
+
+    <div class="container">
+
+
+      <h2 style="font-family: 'Times New Roman', Times, serif;"> <b>Kapsamlı kurs seçkisi</b> </h2><br>
+
+      <p
+        style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 1.5rem;">
+        Her ay yayınlanan yeni kurslarla 155.000+ online video kurs arasından seçiminizi yapın</p><br>
+
+      <nav class="nav">
+        <a class="link-dark">
+          <a class="nav-link active" aria-current="page" href="#" style="color: black;">Python</a></a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Excel</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Web Geliştirme</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">javaScript</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Veri Bilimi</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">AWS Sertifikasyonu</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Çizim</a>
+
+      </nav>
+      <br>
+
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title" style="font-family: 'Times New Roman', Times, serif;"> <b>Python ile kariyer
+              olanaklarınızı artırın</b></h5>
+          <p class="card-text" style="font-family: 'Times New Roman', Times, serif;">İster makine öğrenimi, ister finans
+            alanında çalışıyor olun, ister web geliştirme veya veri
+            bilimi alanında kariyer yapıyor olun, Python öğrenebileceğiniz en önemli becerilerden biridir. Python'un
+            basit
+            sözdizimi özellikle masaüstü, web ve iş uygulamaları için uygundur.</p>
+          <a href="#" class="btn btn-outline-dark">Python kurslarını keşfedin</a>
+          <br>
+          <br>
+
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="card-group">
+
+              <div class="card">
+                <img src="https://img-c.udemycdn.com/course/240x135/1235124_7c5f_6.jpg" class="card-img-top" alt="20">
+                <div class="card-body">
+                  <h5 class="card-title">(40+ Saat) Python|Sıfırdan İleri Seviye Programlama (2020)</h5>
+                  <p class="card-text">Mustafa Murat Çoşkun </p>
+                  <p class="card-text"><small class="text-muted">₺409,99</small></p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="https://img-c.udemycdn.com/course/240x135/2496622_433f.jpg" class="card-img-top" alt="20">
+                <div class="card-body">
+                  <h5 class="card-title">(100+Saat) Aranan Programcı Olma Kamp Kursu</h5>
+                  <p class="card-text">Engin Demiroğ</p>
+                  <p class="card-text"><small class="text-muted">₺409,99</small></p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="https://img-c.udemycdn.com/course/240x135/2310884_04cd_6.jpg" class="card-img-top" alt="20">
+                <div class="card-body">
+                  <h5 class="card-title">(50 Saat) Python A-Z : Veri Bilimi ve Machine Learning)</h5>
+                  <p class="card-text">Mustafa Vahit Keskin, Veri Bilimi Okulu</p>
+                  <p class="card-text"><small class="text-muted">₺46,99</small></p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="https://img-c.udemycdn.com/course/240x135/1586464_cae5_3.jpg" class="card-img-top" alt="20">
+                <div class="card-body">
+                  <h5 class="card-title">Python ile Makine Öğrenmesi</h5>
+                  <p class="card-text">Prof.Dr. Şadi Evren Şeker</p>
+                  <p class="card-text"><small class="text-muted">₺409,99</small></p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="https://img-c.udemycdn.com/course/240x135/1746350_90f5_3.jpg" class="card-img-top" alt="20">
+                <div class="card-body">
+                  <h5 class="card-title">Python: Yapay Zeka için Python Programlama (1)</h5>
+                  <p class="card-text"> DATAI TEAM</p>
+                  <p class="card-text"><small class="text-muted">₺399,99</small></p>
+                </div>
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+          <img src="https://png.pngtree.com/png-vector/20190419/ourmid/pngtree-vector-play-icon-png-image_956416.jpg"
+            alt="" width="30" height="24" class="d-inline-block align-text-top me-3">
+
+          <p href="#"
+            style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; justify-content: flex-start;">
+            <b>155.000 adedi aşkın video kursla yüksek talep gören yetkinlikleri öğrenin</b>
+          </p>
+
+          <img
+            src="https://e7.pngegg.com/pngimages/708/999/png-clipart-black-star-illustration-computer-icons-5-star-angle-triangle.png"
+            alt="" width="30" height="24" class="d-inline-block align-text-top me-3">
+
+          <p href="#"
+            style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; justify-content: inherit;">
+            <b> Gerçek uzmanlar tarafından verilen kursları seçin </b>
+          </p>
+
+          <img
+            src="https://w7.pngwing.com/pngs/722/792/png-transparent-logo-infinity-symbol-infinity-text-trademark-art.png"
+            alt="" width="30" height="24" class="d-inline-block align-text-top me-3">
+
+          <p href="#"
+            style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; justify-content: flex-end;">
+            <b>Mobil ve masaüstünde ömür boyu erişim sayesinde kendi hızınızda öğrenin</b>
+          </p>
+
+        </div>
+      </nav>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="card-group">
+
+              <div class="card">
+                <img src="https://img-c.udemycdn.com/course/240x135/1589248_f533_5.jpg" class="card-img-top" alt="20">
+                <div class="card-body">
+                  <h5 class="card-title">Özel Ders Formatında Sıfırdan Zirveye İngilizce Eğitim Seti</h5>
+                  <p class="card-text">Serdar Hoca</p>
+                  <p class="card-text"><small class="text-muted">₺409,99</small></p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="https://img-c.udemycdn.com/course/240x135/793796_0e89.jpg" class="card-img-top" alt="20">
+                <div class="card-body">
+                  <h5 class="card-title">Microsoft Excel - Excel fromBeginner to Advanced</h5>
+                  <p class="card-text">Kyle Pew, Office Nweb</p>
+                  <p class="card-text"><small class="text-muted">309,99</small></p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="https://img-c.udemycdn.com/course/240x135/914296_3670_8.jpg" class="card-img-top" alt="20">
+                <div class="card-body">
+                  <h5 class="card-title">The Complete Digital Marketing Course - 12 Courses in 1</h5>
+                  <p class="card-text">Rob Percival, Daragh Walsh, Codestars by...</p>
+                  <p class="card-text"><small class="text-muted">₺409,99</small></p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="https://img-c.udemycdn.com/course/240x135/1408632_0134_2.jpg" class="card-img-top" alt="20">
+                <div class="card-body">
+                  <h5 class="card-title">Etik Hacker Olma Kursu</h5>
+                  <p class="card-text">Atil Samancioğlu, Academy Club</p>
+                  <p class="card-text"><small class="text-muted">₺409,99</small></p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="https://img-c.udemycdn.com/course/240x135/1207662_42a8_5.jpg" class="card-img-top" alt="20">
+                <div class="card-body">
+                  <h5 class="card-title">Android Mobil Uygulama Kursu: Kotlin&Java</h5>
+                  <p class="card-text">Atil Samancioğlu, Academy Club</p>
+                  <p class="card-text"><small class="text-muted">₺399,99</small></p>
+                </div>
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+
+            </div>
+
+          </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container">
+      <h3>En popüler kategoriler</h3>
+      <br>
+      <br>
+
+      <div class="row">
+        <div class="col md-3">
+          <a href="#">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg"><br>
+          </a> Yazılım Geliştirme
+        </div>
+
+        <div class="col md-3">
+          <a href="#">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg"><br>
+          </a>Pazarlama
+        </div>
+
+        <div class="col md-3">
+          <a href="#">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg"><br>
+          </a>BT ve Yazılım
+        </div>
+
+        <div class="col md-3">
+          <a href="#">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg"><br>
+          </a>Tasarım
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col md-3">
+          <a href="#">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-v2.jpg"><br>
+          </a>Kişisel Gelişim
+        </div>
+
+        <div class="col md-3">
+          <a href="#">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-business-v2.jpg"><br>
+          </a>İşletme
+        </div>
+
+        <div class="col md-3">
+          <a href="#">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-photography-v2.jpg"><br>
+          </a> Fotoğrafçılık
+        </div>
+
+        <div class="col md-3">
+          <a href="#">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-music-v2.jpg"><br>
+          </a>Müzik
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div style="width: 50%; margin:100px auto 100px auto;text-align: left;line-height: 1.5;">
+      <img style="float: left;margin-right: 30px;"
+        src="https://s.udemycdn.com/home/non-student-cta/instructor-1x-v3.jpg">
+      <h3>Eğitmen olun</h3>
+      <p>Dünyanın dört bir yanından eğitmenler Udemy'de milyonlarca öğrenciye eğitim veriyor. Sevdiğiniz şeyleri
+        öğretmeniz için gereken araçları ve yetkinlikleri sağlıyoruz.</p>
+      <span><button type="button" class="btn btn-dark  border border-dark" style="margin-right: 20; "
+          data-toggle="tooltip" data-placement="bottom">Hemen Eğitim Vermeye Başlayın</button></span>
+    </div>
+
+    <div>
+      <p
+        style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:25; text-align: center; font-weight: 700; color: black; margin-left: 18; margin-top:23;">
+        Her ölçekteki şirketler tarafında güvenilir</p>
+    </div>
+
+    <div class=" col text-center ">
+      <img height=" 44px" width="44px" src="https://s.udemycdn.com/partner-logos/v4/apple-dark.svg" alt="...">
+      <img height="44px" width="67px" src="https://s.udemycdn.com/partner-logos/v4/box-dark.svg" alt="...">
+      <img height="44px" width="44px" src="https://s.udemycdn.com/partner-logos/v4/volkswagen-dark.svg" alt="...">
+      <img height="44px" width="101px" src="https://s.udemycdn.com/partner-logos/v4/netflix-dark.svg" alt="...">
+      <img height="44px" width="115px" src="https://s.udemycdn.com/partner-logos/v4/eventbrite-dark.svg" alt="...">
+    </div>
+
+    <div style="width: 50%; margin:100px auto 100px auto; text-align:left;line-height: 1.5;">
+      <img style=" float:right;" src="https://s.udemycdn.com/home/non-student-cta/ub-1x-v3.jpg">
+      <h3>Ekibiniz için popüler 6.000+ Udemy kursuna sınırsız erişim elde edin. İşletme, teknoloji, tasarım ve daha
+        birçok konuda eğitim alın ve yetkinliklerinizi geliştirin.
+        <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-ub.svg " style="width: 250; height: 48;">
+      </h3>
+      <span><button type="button" class="btn btn-dark  border border-dark" style="margin-right: 40; "
+          data-toggle="tooltip" data-placement="bottom">Udemy Business ürününü edinin</button></span>
+    </div>
+
+    <div style="width: 50%; margin:100px auto 100px auto; text-align: left;line-height: 1.5;">
+      <img style="float: left;margin-right: 30px;"
+        src="https://s.udemycdn.com/home/non-student-cta/transform-1x-v3.jpg">
+      <h3>Eğitimle hayatınızı dönüştürün</h3>
+      <p>Dünya genelindeki öğrenciler yeni kariyerlere başlıyor, alanlarında kendilerini geliştiriyor ve hayatlarını
+        zenginleştiriyor.</p>
+      <span><button type="button" class="btn btn-dark  border border-dark" style="margin-right: 20; "
+          data-toggle="tooltip" data-placement="bottom">Neler olduğunu öğrenin</button></span>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class="container">
+    <div class="row" style="width:100%; background-color: white;">
+
+      <h2 style="background-color: white;">Featured topics by category</h2>
+
+      <table class="table table-borderless" style="background-color: white;">
+        <tablebody>
+          <tr>
+            <th>Yazılım Geliştirme</th>
+            <th>İşletme</th>
+            <th>BT ve Yzılım</th>
+            <th>Tasarım</th>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="#">Python </a><br>
+              8.840
+            </td>
+
+            <td>
+              <a href="#">Finansal Analiz </a><br>
+              351 Öğrenci
+            </td>
+
+            <td>
+              <a href="#">AWS Sertifikasyonu </a><br>
+              3.045 Öğrenci
+            </td>
+
+            <td><a href="#">Photosghop </a><br>
+              652 Öğrenci
+            </td>
+
+          </tr>
+
+          <tr>
+            <td>
+              <a href="#">Web Geliştirme </a><br>
+              5.600 Öğrenci
+            </td>
+
+            <td>
+              <a href="#">SQL </a><br>
+              1.256 Öğrenci
+            </td>
+
+            <td>
+              <a href="#">Etik Hackleme </a><br>
+              1.404 Öğrenci
+            </td>
+            <td>
+              <a href="#">Grafik Tasarım </a><br>
+              505 Öğrenci
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="#">makine öğrenimi </a><br>
+              1.404 Öğrenci
+            </td>
+
+            <td>
+              <a href="#">PMP </a><br>
+              495 Öğrenci
+            </td>
+            <td>
+              <a href="#">Siber Güvenlik </a><br>
+              318 öğrenci
+            </td>
+            <td>
+              <a href="#">Çizim </a><br>
+              305 Öğrenci
+            </td>
+          </tr>
+
+        </tablebody>
+      </table>
+    </div>
+
+  </div>
+
+  <div class="row bg-light ">
+    <footer class="pt-5">
+      <div class="row mx-4" style="background-color: black;">
+        <div class="col-2">
+
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                <p style="color: #fff;">Udemy Businness</p>
+              </a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                <p style="color: #fff;">Udemy'de eğitim verin</p>
+              </a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                <p style="color: #fff;">Uygulamayı edinin</p>
+              </a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                <p p style="color: #fff;">Hakkımızda</p>
+              </a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                <p p style="color: #fff;">İletişim</p>
+              </a></li>
+          </ul>
+        </div>
+
+        <div class="col-2">
+
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                <p p style="color: #fff;">Kariyer</p>
+              </a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                <p p style="color: #fff;">Blog</p>
+              </a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                <p style="color: #fff;">Yardım Ve destek</p>
+              </a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                <p style="color: #fff;">İş ortaklığı</p>
+              </a></li>
+
+        </div>
+
+        <div class="col-2">
+
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                <p style="color: #fff;">Koşullar</p>
+              </a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                <p style="color: #fff;">Gizlilik politikası</p>
+              </a> </li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                <p style="color: #fff;">Site haritası</p>
+              </a></li>
+
+          </ul>
+        </div>
+
+        <div class="container p-4" style="background-color: black;">
+          <div class="row">
+            <div class="col-md-6 footer-column">
+              <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg" alt="" width="91"
+                height="34">
+            </div>
+
+            <div class="col-md-6 footer-column">
+              <div class="text-center " style="color: white; "> © 2021 Udemy,Inc.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>
+
+</html>
